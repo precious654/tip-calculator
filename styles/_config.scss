@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input{
+  padding: 10px 10px 10px 10px;
+  border-radius: 7px;
+  border: none;
+  background-color: hsl(189, 41%, 97%);
+}
+
+button{
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  background-color: hsl(183, 100%, 15%);
+  color: #FFFFFF;
+  font-weight: bold;
+}
