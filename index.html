@@ -13,7 +13,7 @@
 </head>
 <body>
   <main>
-    <div>
+    <div class="title">
       <h2>SPLI</h2>
       <h2>TTER</h2>
     </div>
@@ -48,26 +48,29 @@
       </div>
 
       <div class="second-one">
-        <div class="amount">
-          <div>
-            <p>Tip Amount</p>
-            <small>/ person</small>
+        <div class="second-one-parent">
+          <div class="amount">
+            <div class="write-up">
+              <p>Tip Amount</p>
+              <small>/ person</small>
+            </div>
+            <div>
+              <label for="">$</label>
+              <input type="text" class="amount-input" placeholder="0.00">
+            </div>
           </div>
-          <div>
-            <label for="">$</label>
-            <input type="text" class="amount-input" placeholder="0:00">
-          </div>
-        </div>
 
-        <div class="person">
-          <div>
-            <p>Total</p>
-            <small>/ person</small>
+          <div class="person">
+            <div class="write-up">
+              <p>Total</p>
+              <small>/ person</small>
+            </div>
+            <div>
+              <label for="">$</label>
+              <input type="text" class="amount-input" placeholder="0.00">
+            </div>
           </div>
-          <div>
-            <label for="">$</label>
-            <input type="text" class="amount-input" placeholder="0:00">
-          </div>
+
         </div>
 
         <div>
@@ -82,5 +85,6 @@
     </div>
   </main>
 
+  <script src="./JS/script.js" charset="utf-8"></script>
 </body>
 </html>
