@@ -17,6 +17,17 @@ body{
   display: flex;
   justify-content: space-between;
 
+  .first-one{
+
+    .buttons{
+
+      .custom-button{
+        background-color: hsl(189, 41%, 97%);
+        color: hsl(183, 100%, 15%);
+      }
+    }
+  }
+
   .second-one{
     border-radius: 12px;
     background-color: hsl(183, 100%, 15%);

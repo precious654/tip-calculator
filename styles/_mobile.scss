@@ -2,5 +2,16 @@
 
   .calculator{
     flex-direction: column;
+    margin-block-start: 3rem;
+    margin-block-end: 2rem;
+
+    .first-one{
+
+      .buttons{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.7rem
+      }
+    }
   }
 }
