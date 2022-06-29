@@ -4,6 +4,7 @@
 
 body{
   background-color: hsl(185, 41%, 84%);
+  font-family: 'Space Mono', monospace;
 }
 
 .title{
@@ -19,7 +20,16 @@ body{
 
   .first-one{
 
-    .buttons{
+    input::placeholder{
+      font-family: 'Space Mono', monospace;
+      font-weight: bold;
+      font-size: 20px;
+      color: hsl(183, 100%, 15%);
+    }
+
+    .button{
+      margin-block-start: 1rem;
+      margin-block-end: 1rem;
 
       .custom-button{
         background-color: hsl(189, 41%, 97%);
@@ -47,6 +57,7 @@ body{
       font-size: 27px;
       font-weight: bold;
       color: hsl(172, 67%, 45%);
+      font-family: 'Space Mono', monospace;
     }
 
     button{
