@@ -1,5 +1,3 @@
-console.log("Hello");
-
 let bill = document.querySelector(".bill-input") as HTMLInputElement;
 
 let people = document.querySelector(".people-input") as HTMLInputElement;

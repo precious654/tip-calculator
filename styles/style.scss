@@ -83,9 +83,12 @@ body{
 }
 
 .attribution{
+  margin-block-start: 2rem;
   font-size: 11px;
   text-align: center;
-}
-.attribution a{
-  color: hsl(228, 45%, 44%);
+
+  a{
+   color: hsl(228, 45%, 44%);
+ }
+
 }

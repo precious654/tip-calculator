@@ -1,7 +1,18 @@
 @media (min-width: 1025px) {
 
   main{
-    inline-size: 80%;
+    inline-size: 60%;
     margin: auto;
+    margin-block-start: 100px;
+  }
+
+  .title{
+    margin-block-end: 2rem;
+  }
+
+  .buttons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.7rem
   }
 }
